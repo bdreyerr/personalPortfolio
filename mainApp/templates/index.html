@@ -1,0 +1,480 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Ben Dreyer</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" href="{% static 'assets/img/favicon.ico' %}" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %} " rel="stylesheet">
+    <link href=" {% static 'assets/vendor/icofont/icofont.min.css' %} " rel="stylesheet">
+    <link href=" {% static 'assets/vendor/boxicons/css/boxicons.min.css' %} " rel="stylesheet">
+    <link href=" {% static 'assets/vendor/venobox/venobox.css' %} " rel="stylesheet">
+    <link href=" {% static 'assets/vendor/owl.carousel/assets/owl.carousel.min.css' %} " rel="stylesheet">
+    <link href=" {% static 'assets/vendor/aos/aos.css' %} " rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href=" {% static 'assets/css/style.css' %} " rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: iPortfolio - v1.4.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="d-flex flex-column">
+            
+            <div class="profile">
+                <img src=" {% static 'assets/img/ben3pls.jpg' %} " alt="" style="border-radius: 50%">
+                <h1 class="text-light"><a href="">Ben Dreyer</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a href="https://twitter.com/southxyx" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/ben.dreyer.5" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/bdreyerr/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://github.com/bdreyerr" class="github"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ben-dreyer-3b9063159/" class="linkedin"><i
+                            class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href=""><i class="bx bx-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+                    <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                    <li><a href="#portfolio"><i class="bx bx-book-content"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+                </ul>
+            </nav><!-- .nav-menu -->
+            <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1>Ben Dreyer</h1>
+            <p><span class="typed" data-typed-items="Student, Developer, Musician, Traveler"></span></p>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>About</h2>
+                    <p>Hi there! I'm currently a senior at Santa Clara University studying Computer Science and
+                        Mathematics. Currently looking for a
+                        full time role as a Software Engineer. </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <img src="{% static 'assets/img/ben3pls.jpg' %}" class="img-fluid" alt="" style="border-radius: 50%;">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                        <h3>Software Engineering &amp; Data Science</h3>
+                        <p class="font-italic">
+                            
+                        </p>
+                        <p>
+                            I'm a 21 year old college student with a strong passion for technology and code! I'm wrapping up my senior year at Santa
+                            Clara University and hoping to find a job as a Software Engineer / Data Scientist. In my free time I enjoy playing basketball,
+                            working out, snowboarding, making music or working on coding projects like this website I built using Django!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+
+        <!-- ======= Skills Section ======= -->
+        <section id="skills" class="skills section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Skills</h2>
+
+                </div>
+
+                <div class="row skills-content">
+
+                    <div class="col-lg-6" data-aos="fade-up">
+
+                        <div class="progress">
+                            <span class="skill">C++<i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">Python <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">SQL <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="progress">
+                            <span class="skill">HTML/CSS <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">JavaScript <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">Django <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Skills Section -->
+
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Resume</h2>
+                    <a data-aos="fade-up" class="btn btn-primary" href="{% static 'assets/files/Ben_Dreyer_Resume.pdf' %}">Download Resume</a>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <h3 class="resume-title">Sumary</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Ben Dreyer</h4>
+                            <p><em>Creative and driven software developer with an interest in data science and analysis.
+                                    Strong experience  with web development using Django
+                                    and ReactJS. Knowledge  of Object Oriented Programming, Algorithms, Data Structures,
+                                    Database modeling / management and Git.
+                                </em></p>
+                            <ul>
+                                <li>500 El Camino Real, Santa Clara, CA</li>
+                                <li>303-656-6110</li>
+                                <li>bdreyer@scu.edu</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>B.A. - Computer Science &amp; Mathematics</h4>
+                            <h5>2017 - 2021</h5>
+                            <p><em>Santa Clara University, CA</em></p>
+                            <p>GPA: 3.23 <br> Coursework in: Operating Systems, Data Web Mining, Algorithms, Linear
+                                Algebra, Discrete Math </p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Study Abroad - Computer Science</h4>
+                            <h5>2019 - 2020</h5>
+                            <p><em>Nanyang Technological University, Singapore</em></p>
+                            <p>Coursework in: Relational Databases, Engineering Communications, Wearable Technology</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Sales Engineering Intern</h4>
+                            <h5>June - Aug 2020</h5>
+                            <p><em>CrowdStrike </em></p>
+                            <ul>
+                                <li>Developed an internal web application dedicated to submitting anonymous feedback
+                                    among
+                                    teams and managers (Django, Python, JS)
+                                </li>
+                                <li>Completed CrowdStrike Falcon Certifications for next gen AV and endpoint protection
+                                    (CCFA,
+                                    CCFR, CCFH)</li>
+                                <li>Worked alongside full-time sales engineers to give demos and proof of concepts for
+                                    CrowdStrikes Falcon services
+                                </li>
+                                <li>Organized and led virtual events and discussions for co-workers as a Lead Intern
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Software Development Intern</h4>
+                            <h5>June - Aug 2019</h5>
+                            <p><em>Vail Resorts</em></p>
+                            <ul>
+                                <li>Joined the Resort Application Development team improving efficiency of on-mountain
+                                    technology</li>
+                                <li>Created and updated GUIs for Vail’s POS Desktop application using WPF in Microsoft
+                                    Visual
+                                    Studio.</li>
+                                <li>Integrated DevExpress into existing UI’s to improve performance, appearance and user
+                                    experience
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Software Engineering Intern</h4>
+                            <h5>June - Aug 2018</h5>
+                            <p><em>Convercent</em></p>
+                            <ul>
+                                <li>Joined the Customer Integration team to ensure software efficiency</li>
+                                <li>Coded custom HR Data Facets in C for companies Unilever and Interstate Hotels</li>
+                                <li>Utilized biweekly Veracode scans to ensure code and data security</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Resume Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Projects</h2>
+                </div>
+
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item ">
+                        <div class="portfolio-wrap">
+                            <p style="text-align: center;"><strong>Hack for Humanity 2019 </strong><br> An android app that finds users
+                                resources in the event of a natural disaster</p>
+                            <img src="{% static 'assets/img/original.jpg' %}" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="https://github.com/mitchahan/Hackathon" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item ">
+                        <div class="portfolio-wrap">
+                            <p style="text-align: center;"><strong>Leasr</strong> <br> Web app allowing SCU students to lease houses /
+                                apartments from one another</p>
+                            <img src="{% static 'assets/img/leasr.png' %}" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="https://github.com/bdreyerr/leasr" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item ">
+                        <div class="portfolio-wrap">
+                            <p style="text-align: center;"><strong>Multiplayer Snake</strong><br> Final project for CSCI 169, a
+                                multiplayer take on the classic snake game created with Ruby </p>
+                            <img src="{% static 'assets/img/snake.png' %}" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="https://github.com/bdreyerr/snake" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item justify-content-center align-items-center"
+                        style="visibility: hidden;">
+                        <div class="portfolio-wrap">
+                            <p style="text-align: center;"><strong>Music</strong> <br> Final project for CSCI 169, a multiplayer take on
+                                the classic snake game created with Ruby </p>
+                            <img src="{% static 'assets/img/snake.png' %}" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="https://github.com/bdreyerr/snake" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item justify-content-center align-items-center">
+                        <div class="portfolio-wrap">
+                            <p style="text-align: center;"><strong>Music</strong> <br> Check out some of the music that I've made over
+                                the years on my soundcloud!</p>
+                            <img src="{% static 'assets/img/music.jpeg' %}" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="https://soundcloud.com/southxx" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Portfolio Section -->
+
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials ">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Testimonials</h2>
+                </div>
+
+                <div class="row justify-content-center align-items-center" >
+                    <div class="testimonial-item" data-aos="fade-up" style="width: 30%; height: 200px">
+                        <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Ben was an excellent addition to the team and made a great impact in the short time he was
+                            with us. I was fortunate to work on a couple projects with Ben and found him to be a great
+                            listener, learner and executor. He also produced a high volume of work while maintaining
+                            standards for quality.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                        <h3>Matt James</h3>
+                        <h4>Convercent </h4>
+                    </div>
+                    <div class="testimonial-item" data-aos="fade-up" style="width: 30%; height: 200px;">
+                        <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Ben has proven to posses the perfect blend of ingenuity, determination and integrity. We're only halfway through 
+                            the internship, but we're already so proud of what he's accomplished. His future truly holds no limits.<br>
+                            <i class="bx bxs-quote-alt-right quote-icon-right"><br></i>
+                            <br>
+                        </p>
+                        <h3>Steve Smith</h3>
+                        <h4>CrowdStrike </h4>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Testimonials Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p>Feel free to reach out to me below regarding any questions or opportunities!</p>
+                </div>
+
+                <div class="row" data-aos="fade-in">
+
+                    <div class="col-lg-5 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="icofont-google-map"></i>
+                                <h4>Location:</h4>
+                                <p>500 El Camino Real, Santa Clara, CA</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="icofont-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>bdreyer@scu.edu</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="icofont-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+1 303-656-6110</p>
+                            </div>
+
+                            
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.6984981671308!2d-121.94117618441594!3d37.349646044276646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcbaf36303ec3%3A0x561ca114f6d4e347!2sSanta%20Clara%20University!5e0!3m2!1sen!2sus!4v1599005128090!5m2!1sen!2sus" width="100%" height="290px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                        <div class="container">
+                            <form method="post" >{% csrf_token %}
+                          
+                                {{form.as_p}}
+                                
+                          
+                              <input type="submit" value="Send Message">
+                          
+                            </form>
+                          </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+    </footer><!-- End  Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="{% static 'assets/vendor/jquery/jquery.min.js' %} "></script>
+    <script src=" {% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src=" {% static 'assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+    <script src=" {% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+    <script src=" {% static 'assets/vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/counterup/counterup.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %} "></script>
+    <script src="{% static 'assets/vendor/venobox/venobox.min.js' %} "></script>
+    <script src="{% static 'assets/vendor/owl.carousel/owl.carousel.min.js' %} "></script>
+    <script src="{% static 'assets/vendor/typed.js/typed.min.js' %} "></script>
+    <script src="{% static 'assets/vendor/aos/aos.js' %} "></script>
+
+    <!-- Template Main JS File -->
+    <script src=" {% static 'assets/js/main.js' %} "></script>
+
+</body>
+
+</html>
